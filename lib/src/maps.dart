@@ -33,7 +33,7 @@ class Maps {
   static const ISPARTA = '.svg';
   static const MERSIN = '.svg';
   static const ISTANBUL = '34-ISTANBUL.svg';
-  static const IZMIR = '.svg';
+  static const IZMIR = 'turkey.svg';
   static const KARS = '.svg';
   static const KASTAMONU = '.svg';
   static const KAYSERI = '.svg';

@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * Fixed minor bugs
+
+## 0.0.5
+
+* Fixed minor bugs
