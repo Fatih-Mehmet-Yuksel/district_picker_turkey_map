@@ -8,7 +8,7 @@ class DistrictPickerMap extends StatefulWidget {
   final double? width;
   final double? height;
   final String map;
-  final Function(District? city) onChanged;
+  final Function(District? district) onChanged;
   final Color? strokeColor;
   final Color? selectedColor;
   final Color? dotColor;
@@ -63,7 +63,7 @@ class DistrictPickerMapState extends State<DistrictPickerMap> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        for (var city in _districtList) _buildStackItem(city),
+        for (var district in _districtList) _buildStackItem(district),
       ],
     );
   }

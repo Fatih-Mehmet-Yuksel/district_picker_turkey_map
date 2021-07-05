@@ -16,10 +16,10 @@ class Parser {
 
   Parser._init();
 
-  Future<List<District>> svgToDistrictList(String country) async {
+  Future<List<District>> svgToDistrictList(String city) async {
 
-    final svgCountry = await rootBundle.loadString(
-        '${Constants.ASSETS_PATH}/$country'
+    final svgCity = await rootBundle.loadString(
+        '${Constants.ASSETS_PATH}/$city'
     );
 
     List<District> districtList = [];
@@ -27,7 +27,7 @@ class Parser {
     final regExp = RegExp(Constants.MAP_REGEXP,
         multiLine: true, caseSensitive: false, dotAll: false);
 
-    regExp.allMatches(svgCountry).forEach((districtData) {
+    regExp.allMatches(svgCity).forEach((districtData) {
       final district = District(
           id: districtData.group(1)!,
           title: districtData.group(2)!,
