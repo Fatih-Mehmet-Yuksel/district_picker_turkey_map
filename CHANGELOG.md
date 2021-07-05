@@ -17,3 +17,7 @@
 ## 0.0.5
 
 * Fixed minor bugs
+
+## 0.0.6
+
+* Fixed some svg errors
