@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Fixed typo errors
+
+## 0.0.3
+
+* Ankara map fixed
