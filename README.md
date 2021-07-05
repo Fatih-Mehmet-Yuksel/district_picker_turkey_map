@@ -55,7 +55,7 @@ DistrictPickerMap(
 | strokeColor       | `Color?`     | Color of the district borders |
 | selectedColor       | `Color?`     | Color of the selected district |
 | actAsToggle | `boolean?`         | District selecting act as like toggle button |
-| onChanged       | `Function(City? city)`     | Returns new district value when it changed |
+| onChanged       | `Function(District? district)`     | Returns new district value when it changed |
 ## Contributors
 
 Much thanks to [Ahmet ÇELİK](https://github.com/ahm3tcelik/)
