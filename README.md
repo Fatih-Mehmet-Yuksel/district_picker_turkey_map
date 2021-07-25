@@ -3,12 +3,7 @@
 A flutter package for select a province of Turkish cities from svg map. 
 similar to City Picker From Map created by [Ahmet ÇELİK](https://github.com/ahm3tcelik/city_picker_from_map)
 
-Supported cities
--Ankara
--Istanbul
--Konya
-
-This is a first release. Other cities coming soon.
+All 81 Turkish cities are supported.
 
 ## Getting Started
 
@@ -17,7 +12,7 @@ In the `pubspec.yaml` of your **Flutter** project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  district_picker_turkey_map: any
+  district_picker_turkey_map: ^0.1.0
 ```
 
 In your library file add the following import:
